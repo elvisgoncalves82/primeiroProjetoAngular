@@ -8,12 +8,14 @@ import { CursosModule } from './cursos/cursos.module';
 
 import { MeuPrimeiroComponent } from './meu-primeiro/meu-primeiro.component';
 import { Meuprimeiro2Component } from './meuprimeiro2/meuprimeiro2.component';
+import { DataBidingComponent } from './data-biding/data-biding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MeuPrimeiroComponent,
-    Meuprimeiro2Component
+    Meuprimeiro2Component,
+    DataBidingComponent
     
   ],
   imports: [
